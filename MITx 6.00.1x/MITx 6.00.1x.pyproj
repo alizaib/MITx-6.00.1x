@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23e0111d-b74b-4c62-b781-b227b72e9ac3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>main.py</StartupFile>
+    <StartupFile>Week_01\ProblemSet3_Longest_String.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,17 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
+    <Compile Include="Unit01\ProblemSet1_Count_Vowels.py" />
+    <Compile Include="Week_01\ProblemSet2_Count_Occurrences.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Week_01\ProblemSet3_Longest_String.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Unit01\" />
+    <Folder Include="Week_01\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
