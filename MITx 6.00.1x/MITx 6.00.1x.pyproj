@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23e0111d-b74b-4c62-b781-b227b72e9ac3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Week_01\ProblemSet3_Longest_String.py</StartupFile>
+    <StartupFile>Unit02\Newton-Raphson.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,16 +23,32 @@
   <ItemGroup>
     <Compile Include="main.py" />
     <Compile Include="Unit01\ProblemSet1_Count_Vowels.py" />
-    <Compile Include="Week_01\ProblemSet2_Count_Occurrences.py">
+    <Compile Include="Unit01\ProblemSet2_Count_Occurrences.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Week_01\ProblemSet3_Longest_String.py">
+    <Compile Include="Unit01\ProblemSet3_Longest_String.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit02\Bisection.py" />
+    <Compile Include="Unit02\cuberoot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit02\FloatToBinary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit02\IntegerToBinary.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit02\Newton-Raphson.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Unit02\NumberGuess.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Unit02\" />
     <Folder Include="Unit01\" />
-    <Folder Include="Week_01\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
