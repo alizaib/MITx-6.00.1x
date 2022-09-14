@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23e0111d-b74b-4c62-b781-b227b72e9ac3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Unit03\PayingDebt03.py</StartupFile>
+    <StartupFile>Unit03\ps3_hangman.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -57,6 +57,7 @@
     <Compile Include="Unit03\Polysum.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Unit03\ps3_hangman.py" />
     <Compile Include="Unit03\TowersOfHanoi.py">
       <SubType>Code</SubType>
     </Compile>
@@ -65,6 +66,9 @@
     <Folder Include="Unit03\" />
     <Folder Include="Unit02\" />
     <Folder Include="Unit01\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Unit03\words.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

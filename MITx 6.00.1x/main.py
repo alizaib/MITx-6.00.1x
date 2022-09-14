@@ -1,17 +1,26 @@
-import math
-def polysum(n, s):
+animals = { 'a': ['aardvark'], 'b': ['baboon'], 'c': ['coati']}
+
+animals['d'] = ['donkey']
+animals['d'].append('dog')
+animals['d'].append('dingo')
+
+def biggest(aDict):
     '''
-    int: number of sides of regular polygon
-    s: lenth of a side
+    aDict: A dictionary, where all the values are lists.
+
+    returns: The key with the largest number of values associated with it
+    '''
+    # Your Code Here
+    largest = 0
+    resultkey = list(aDict.keys())[0]
+    for key in aDict.keys():
+        if len(aDict[key]) > largest:
+            resultkey = key
+            largest = len(aDict[key])
     
-    returns: sum of the area and square of the perimeter of the regular polygon, rounded to four decimal places
-    '''
-    area = (0.25*n*(s**2))/(math.tan(math.pi/n))
-    perimeter = n*s;
+    return resultkey
 
-    return round(area + perimeter**2, 4)
-
-print(polysum(5, 2))
-
+print(biggest(animals))
+print(list(animals.keys())[0])
 
 
