@@ -1,26 +1,22 @@
-animals = { 'a': ['aardvark'], 'b': ['baboon'], 'c': ['coati']}
+def general_poly (L):
+    """ L, a list of numbers (n0, n1, n2, ... nk)
+    Returns a function, which when applied to a value x, returns the value 
+    n0 * x^k + n1 * x^(k-1) + ... nk * x^0 """
+    #YOUR CODE HERE    
 
-animals['d'] = ['donkey']
-animals['d'].append('dog')
-animals['d'].append('dingo')
+    def f(x):
+        k = len(L)-1
+        sum = 0
+        for val in L:
+            sum += val * (x**k)
+            k -= 1
+        return sum
 
-def biggest(aDict):
-    '''
-    aDict: A dictionary, where all the values are lists.
-
-    returns: The key with the largest number of values associated with it
-    '''
-    # Your Code Here
-    largest = 0
-    resultkey = list(aDict.keys())[0]
-    for key in aDict.keys():
-        if len(aDict[key]) > largest:
-            resultkey = key
-            largest = len(aDict[key])
-    
-    return resultkey
-
-print(biggest(animals))
-print(list(animals.keys())[0])
+    return f
 
 
+
+
+
+r = general_poly([1, 2, 3, 4])(10)
+print(r)

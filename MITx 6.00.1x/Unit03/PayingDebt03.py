@@ -1,5 +1,5 @@
-balance = 999999
-annualInterestRate = 0.18
+balance = 320000
+annualInterestRate = 0.2
 
 def calculateBalance(minPayment):
     _balance = balance
