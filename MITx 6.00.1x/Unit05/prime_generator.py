@@ -20,7 +20,8 @@ def prime_generator():
                 break
 
 
-generator = prime_generator();
-for i in range(15):
-    print(generator.__next__())
+for prime in prime_generator():
+    print(prime)
+    if prime > 200:
+        break
         

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23e0111d-b74b-4c62-b781-b227b72e9ac3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Unit04\ps4a.py</StartupFile>
+    <StartupFile>Unit06\AllSubsets.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -64,8 +64,17 @@
     <Compile Include="Unit04\ps4a.py" />
     <Compile Include="Unit04\ps4b.py" />
     <Compile Include="Unit04\test_ps4a.py" />
+    <Compile Include="Unit05\Coordinate.py" />
+    <Compile Include="Unit05\fraction.py" />
+    <Compile Include="Unit05\hand.py" />
+    <Compile Include="Unit05\intSet.py" />
+    <Compile Include="Unit05\prime_generator.py" />
+    <Compile Include="Unit05\ps6.py" />
+    <Compile Include="Unit06\AllSubsets.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Unit06\" />
+    <Folder Include="Unit05\" />
     <Folder Include="Unit04\" />
     <Folder Include="Unit03\" />
     <Folder Include="Unit02\" />
@@ -74,6 +83,8 @@
   <ItemGroup>
     <Content Include="Unit03\words.txt" />
     <Content Include="Unit04\words.txt" />
+    <Content Include="Unit05\story.txt" />
+    <Content Include="Unit05\words.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
