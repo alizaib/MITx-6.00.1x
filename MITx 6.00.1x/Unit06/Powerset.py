@@ -1,8 +1,8 @@
-def generate_all_subsets(L):
+def get_power_set(L):
     if len(L) == 0:
         return [[]]
 
-    smaller = generate_all_subsets(L[:-1])
+    smaller = get_power_set(L[:-1])
     last_item = L[-1:]
     new = []
     for small in smaller:
@@ -10,7 +10,7 @@ def generate_all_subsets(L):
     return smaller + new
 
 L = [1, 2, 3]
-L_all = generate_all_subsets(L)
+L_all = get_power_set(L)
 
 print(L_all)
 

@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>23e0111d-b74b-4c62-b781-b227b72e9ac3</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Unit06\AllSubsets.py</StartupFile>
+    <StartupFile>Unit06\MergeSort.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>MITx 6.00.1x</Name>
     <RootNamespace>MITx 6.00.1x</RootNamespace>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -70,7 +71,10 @@
     <Compile Include="Unit05\intSet.py" />
     <Compile Include="Unit05\prime_generator.py" />
     <Compile Include="Unit05\ps6.py" />
-    <Compile Include="Unit06\AllSubsets.py" />
+    <Compile Include="Unit06\BubbleSort.py" />
+    <Compile Include="Unit06\MergeSort.py" />
+    <Compile Include="Unit06\Powerset.py" />
+    <Compile Include="Unit06\SelectionSort.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Unit06\" />
